@@ -11,7 +11,40 @@
 </head>
 <body>
 
+  <section class="contact pad-t-2 pad-b-2">
+    <div class="max-length">
+      <h1>Send us a sweet little note</h1>
 
+      <form class="push-0" action="https://formspree.io/your@email.com"
+      method="POST">
+        <div class="push">
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name">
+        </div>
+        <div class="push">
+          <label for-"email">Your email</label>
+          <input id="email" type="email" placeholder="me@me.com"type="email" name="_replyto">
+        </div>
+        <div class="push">
+          <label for="subject">Subject</label>
+          <select id="subject" name="_subject">
+            <option>Get a Quote!</option>
+            <option>General Question</option>
+            <option>Just to talk</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="details">Whats up?</label>
+          <text-area is="details" name="message"></textarea>
+        </div>
+
+        <div class="push">
+          <button class="btn btn-light" type="submit">Send message</button>
+        </div>
+      </form>
+    </div>
+  </section>
 
 </body>
 </html>
